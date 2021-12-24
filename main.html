@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/slider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <script src="assets/js/siema.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"> defer</script>
+
+    <title>Aurum</title>
+</head>
+<style>
+    /*йЗНзљЃ*/
+</style>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="assets/img/logo.svg" alt="">
+            <div class="logo-text">Aurum Production</div>
+        </div>
+        <div class="menu-header">
+            <ul>
+                <li class="menu-item">Пункт меню 1</li>
+                <li class="menu-item">Пункт меню 2</li>
+                <li class="menu-item">Пункт меню 3</li>
+                <li class="menu-item">Пункт меню 4</li>
+                <li class="menu-item">Пункт меню 5</li>
+            </ul>
+        </div>
+        <div class="search-block">
+            <input type="text" class="search" placeholder="Поиск по сайту"></input>
+            <input type="button" class="search-button"></input>
+        </div>
+
+    </header>
+    <section>
+        <div class="slider">
+            <div class="container-slider">
+                <div class="block-text">
+                    <h1 class="title">Новинки <span class="active-color">месяца</span></h1>
+                    <div class="subtitle">Уже на стриминговых сервисах!</div>
+                    <div class="text">Posuere suspendisse tellus arcu euismod fermentum integer elementum. Netus tellus
+                        at facilisi facilisis ipsum tellus. Et nec at sit leo. Id sem sed viverra tristique dolor purus
+                        tempor. Tincidunt fringilla quis porttitor lorem.</div>
+                    <button>Смотрите уже сейчас!</button>
+
+                </div>
+                <div class="block">
+                    <div class="pictureSlider poster-main" data-setting='{
+                    "width":900,
+                    "height":500,
+                    "posterWidth":640,
+                    "posterHeight":500,
+                    "scale":0.8,
+                    "autoPlay":true,
+                    "delay":2000,
+                    "speed":300
+                    }'>
+                        <div class="poster-btn poster-prev-btn"></div>
+                        <ul class="poster-list">
+                            <li class="poster-item">
+                                <a  href="#">
+                                    <img src="assets/img/posters/IMAGE.png" width="40%" height="100%" class="poster" >
+                                   <div class="gradient"><img src="assets/img/posters/IMAGE.png" alt="" class="poster-shadow"></div>                               
+                                </a>
+                            </li>
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="assets/img/posters/IMAGE2.png" width="40%" height="100%" class="poster">
+                                    <div class="gradient"><img src="assets/img/posters/IMAGE2.png" alt="" class="poster-shadow"></div>
+                                </a>
+                            </li>
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="assets/img/posters/IMAGE3.png" width="40%" height="100%" class="poster">
+                                    <div class="gradient"><img src="assets/img/posters/IMAGE3.png" alt="" class="poster-shadow"></div>
+                                </a>
+                            </li>
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="assets/img/posters/IMAGE4.png" width="40%" height="100%" class="poster">
+                                    <div class="gradient"><img src="assets/img/posters/IMAGE4.png" alt="" class="poster-shadow"></div>
+                                </a>
+                            </li>
+                            <li class="poster-item">
+                                <a href="#">
+                                    <img src="assets/img/posters/IMAGE5.png" width="40%" height="100%" class="poster">
+                                    <div class="gradient"><img src="assets/img/posters/IMAGE5.png" alt="" class="poster-shadow"></div>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="poster-btn poster-next-btn"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="movies">
+        <h2 class="title">Прямо сейчас в <span class="active-color">кинотеатрах</span></h2>
+        <div class="text">и на стриминговых сервисах</div>
+        <div class="siema">
+            <div class="">
+                <img src="assets/img/siema/16th-poster-25-10.jpg" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/16th-poster-25-10.jpg" alt="" class="siema-shadow">
+                </div>
+            </div>
+            <div class="">
+                <img src="assets/img/siema/item2.png" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/item2.png" alt="" class="siema-shadow">
+                </div>
+            </div>
+            <!-- <div class="amy-movie-item slick-slide slick-current slick-active slick-center" data-slick-index="0"
+                aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                <div class="amy-movie-item-inner">
+                    <div class="amy-movie-item-front">
+                        <div class="slick-arrows">
+                                <button type="button" data-role="none" class="slick-prev slick-arrow"
+                                aria-label="Previous" role="button" tabindex="0">Previous</button>
+                                <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button"
+                                tabindex="0">Next</button>
+                        </div>
+                        <div class="amy-movie-item-poster">
+                            <a href="" tabindex="0">
+                                <img width="" height="" src="assets/img/siema/poster.png" sizes="" class="siema-item">
+                                <div class="siema-heading">
+                                    <img src="assets/img/siema/poster.png" alt="" class="siema-shadow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="amy-movie-item-back">
+                        <div class="amy-movie-item-back-inner">
+                            <div class="amy-movie-item-content">
+                                <span class="amy-movie-field-imdb">
+                                    <p>16+</p>
+                                </span>
+                                <h3 class="amy-movie-field-title"><a href="" tabindex="0">Justo, egestas non quis
+                                        viverra arcu in</a></h3>
+                                <div class="amy-movie-field-rating">
+                                    <div class="amy-movie-field-rating-inner">
+                                        <span class="rating-stars"><span class="current-rating"
+                                                style="width: 88%"></span></span>
+                                        <span class="user-rating"><a href="#" tabindex="0">2007 •‎ 2 часа 36
+                                                минут</a></span>
+                                    </div>
+                                </div>
+                                <div class="amy-movie-item-meta">
+                                    <span class="amy-movie-field-mpaa">Новая Зеландия •‎ Драма, боевик</span>
+                                    <span class="amy-movie-field-duration">02
+                                        hours 10 minutes</span>
+                                </div>
+                                <div class="amy-movie-field-desc">
+                                    <p>Sed ut perspiciatis unde
+                                        omnis iste natus error sit
+                                        voluptatem accusantium
+                                        doloremque laudantium, totam
+                                        rem aperiam, ...</p>
+                                </div>
+
+                            </div>
+                            <div class="amy-movie-item-button">
+                                <a href="https://player.vimeo.com/video/38156752"
+                                    class="amy-btn-icon-text link-detail fancybox.iframe amy-fancybox" tabindex="0">
+                                    <i class="fa fa-play"></i>Trailer</a>
+                                <a class="amy-btn-icon-text link-detail"
+                                    href="http://demo.amytheme.com/movie/demo/book-ticket/amy_movie/swiss-army-man/"
+                                    tabindex="0">
+                                    <i class="fa fa-info"></i>Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="">
+                <img src="assets/img/siema/item3.png" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/item3.png" alt="" class="siema-shadow">
+                </div>
+                <div class="play-btn-img">
+                    <a class="btn-video play-video" href="https://www.youtube.com/watch?v=XL_3eYx3OVE">
+                        <img src="assets/img/play-btn.png" alt="icon">
+                    </a>
+                </div>
+            </div>           
+            <div class="">
+                <img src="assets/img/siema/item5.png" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/item5.png" alt="" class="siema-shadow">
+                </div>
+            </div>
+            <div class="">
+                <img src="assets/img/siema/item6.png" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/item6.png" alt="" class="siema-shadow">
+                </div>
+            </div>
+            <div class="">
+                <img src="assets/img/siema/granit-poster-3.jpg" alt="" class="siema-item">
+                <div class="siema-heading">
+                    <img src="assets/img/siema/granit-poster-3.jpg" alt="" class="siema-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="baner"></section>
+    <div class="news">
+        <h2 class="title">Скоро на ваших <span class="active-color">экранах</span></h2>
+        <div class="text">самые ожидаемые премьеры</div>
+
+        <div class="block-news-item">
+            <div class="block-news">
+                <div class="entry-thumb"><img src="assets/img/news/IMAGE (4).png" class=" wp-post-image" alt="">
+                </div>
+                <div class="entry-content">
+                    <div class="left ">
+                        <div class="entry-date"><span class="d">20</span><span class="m">Dec</span></div>
+                        <div class="entry-cat">2021</div>
+                        <div class="entry-comment">
+                            <span class="comments">Рейтинг ожидания</span>
+                            <div class="num">92%</div>
+                        </div>
+                        <div class="entry-comment">
+                            <span class="comments">Ждать осталось</span>
+                            <div class="day">4 дня</div>
+                        </div>
+                    </div>
+                    <div class="right ">
+                        <h2 class="entry-title"><a
+                                href="http://demo.amytheme.com/movie/demo/book-ticket/5-movies-to-watch-this-week-29-sep-2016/">5
+                                movies to watch this week (29 Sep 2016)</a>
+                        </h2>
+                        <div class="entry-excerpt">Sed ut perspiciatis unde
+                            omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem
+                            aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed
+                            quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque […]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-news">
+                <div class="entry-thumb"><img width="360" height="240" src="assets/img/news/IMAGE (5).png"
+                        class="attachment-360x240 size-360x240 wp-post-image" alt=""></div>
+                <div class="entry-content">
+                    <div class="left ">
+                        <div class="entry-date"><span class="d">20</span><span class="m">Dec</span></div>
+                        <div class="entry-cat">2022</div>
+                        <div class="entry-comment">
+                            <span class="comments">Рейтинг ожидания</span>
+                            <div class="num">71%</div>
+                        </div>
+                        <div class="entry-comment">
+                            <span class="comments">Ждать осталось</span>
+                            <div class="day">52 дня</div>
+                        </div>
+                    </div>
+                    <div class="right ">
+                        <h2 class="entry-title"><a
+                                href="http://demo.amytheme.com/movie/demo/book-ticket/5-movies-to-watch-this-week-29-sep-2016/">5
+                                movies to watch this week (29 Sep 2016)</a>
+                        </h2>
+                        <div class="entry-excerpt">Sed ut perspiciatis unde
+                            omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem
+                            aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed
+                            quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque […]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-news">
+                <div class="entry-thumb"><img width="360" height="240" src="assets/img/news/IMAGE (6).png"
+                        class="attachment-360x240 size-360x240 wp-post-image" alt=""></div>
+                <div class="entry-content">
+                    <div class="left ">
+                        <div class="entry-date"><span class="d">20</span><span class="m">Dec</span></div>
+                        <div class="entry-cat">2022</div>
+                        <div class="entry-comment">
+                            <span class="comments">Рейтинг ожидания</span>
+                            <div class="num">84%</div>
+                        </div>
+                        <div class="entry-comment">
+                            <span class="comments">Ждать осталось</span>
+                            <div class="day">316 дней</div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="entry-title"><a
+                                href="http://demo.amytheme.com/movie/demo/book-ticket/5-movies-to-watch-this-week-29-sep-2016/">5
+                                movies to watch this week (29 Sep 2016)</a>
+                        </h2>
+                        <div class="entry-excerpt">Penatibus ut nunc mi netus dolor elit risus. Aliquam in amet nisi
+                            lorem tortor iaculis ornare nibh tempor. Mi vivamus id blandit aliquam vitae tempor. Cras
+                            neque odio tincidunt leo. Venenatis quam felis tincidunt felis habitant vel. Amet id
+                            tincidunt urna nulla porta tempor, sit. Blandit nam lectus dictum tempor, adipiscing sit
+                            odio turpis purus. Quis a, porttitor lectus et leo sed sit. Enim viverra maecenas nunc at
+                            […]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+
+        <div class="partners">
+            <h2 class="title">Наши информационные <span class="active-color">партнёры</span></h2>
+            <div class="text">онлайн-кинотеатры и стриминговые сервисы</div>
+            <div class="block-partners">
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Vector (1).svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Vector (1).svg" alt="" class="siema-shadow">
+                    </div>
+
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Vector (2).svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Vector (2).svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Vector (3).svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Vector (3).svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Vector (4).svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Vector (4).svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Union.svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Union.svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/premier-seeklogo.com 1.svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/premier-seeklogo.com 1.svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Frame.svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Frame.svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+                <div class="block-partner-item"><img src="" alt="">
+                    <img src="assets/img/partners/Frame 3.svg" alt="" class="siema-item">
+                    <div class="partners-heading">
+                        <img src="assets/img/partners/Frame 3.svg" alt="" class="siema-shadow">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="block-contact">
+            <div class="item">
+                <img src="assets/img/icon/icon.png" alt="">
+                <h3 class="title">Адрес</h3>
+                <div class="text">197374, Санкт Петербург, <br>
+                    ул. Ленина., 12, строение 1</div>
+            </div>
+            <div class="item">
+                <img src="assets/img/icon/phone.png" alt="">
+                <h3 class="title">Телефон</h3>
+                <div class="text">+7 987 654-32-10 <br>
+                    +7 987 654-32-10</div>
+            </div>
+            <div class="item logo-footer">
+                <img src="assets/img/icon/logo.png" alt="">
+
+            </div>
+            <div class="item">
+                <img src="assets/img/icon/mail.png" alt="">
+                <h3 class="title">E-mail</h3>
+                <div class="text">mail@email.com <br>
+                    contacts@aurum.com</div>
+            </div>
+            <div class="item">
+                <img src="assets/img/icon/icon.png" alt="">
+                <h3 class="title">Соцсети</h3>
+                <div class="text">https://vk.com/feed <br>
+                    https://www.facebook.com/
+                </div>
+            </div>
+
+        </div>
+        <div class="block-copyrig">
+            <h4>
+                © «Aurum Production», 2021. Все права защищены.
+            </h4>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script type="module">
+        new Siema({
+        selector: '.siema',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: {
+        400: 1, // 2 items for viewport wider than 800px
+        1500: 4 // 3 items for viewport wider than 1240px
+        },        
+        startIndex: 1,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: false,
+        rtl: false,
+        onInit: () => {},
+        onChange: () => {},
+        });
+  </script>
+
+
+
+</body>
+
+</html>
