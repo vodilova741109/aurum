@@ -2,7 +2,7 @@
 function addsiemaItem(){
     const siemaItem = document.querySelectorAll('.siema-item');	
     const arraySiemaItem = [...siemaItem]; 
-    console.log(siemaItem);
+    // console.log(siemaItem);
 
 }
 addsiemaItem();
@@ -101,11 +101,11 @@ function carousel(root) {
 		this.rotateFlag = true;
 		//
 		this.setting = {
-			"width" : 1000,			//еєїзБѓзЙЗзЪДеЃљеЇ¶
-			"height" : 270,			//еєїзБѓзЙЗзЪДйЂШеЇ¶
-			"posterWidth" : 640,	//еєїзБѓзЙЗзђђдЄАеЄІзЪДеЃљеЇ¶
-			"posterHeight" : 270,	//еєїзБѓзЙЗзђђдЄАеЄІзЪДйЂШеЇ¶
-			"scale" : 0.9,			//иЃ∞ељХжШЊз§ЇжѓФдЊЛеЕ≥з≥ї
+			"width" : 9000,			//
+			"height" : 500,			//
+			"posterWidth" : 640,	//
+			"posterHeight" : 500,	//
+			"scale" : 0.9,			//
 			"speed" : 500,
 			"autoPlay" : false,
 			"delay" : 5000,
@@ -150,11 +150,10 @@ function carousel(root) {
 			}, this.setting.delay );
 		},
 
-		//жЧЛиљђ
 		carouseRotate:function(dir){
 			var _this_  = this;
 			var zIndexArr = [];
-			//еЈ¶жЧЛиљђ
+			
 			if(dir === "left"){
 				this.posterItems.each(function(){
 					var self = $(this),
@@ -228,7 +227,7 @@ function carousel(root) {
 				rh = this.setting.posterHeight,
 				gap = ((this.setting.width - this.setting.posterWidth)/2)/level;
 			
-			//иЃЊзљЃеП≥иЊєдљНзљЃеЕ≥з≥ї
+			//
 			rightSlice.each(function(i){
 				level--;
 				rw = rw * self.setting.scale;
@@ -244,7 +243,7 @@ function carousel(root) {
 				});
 			});
 
-			//иЃЊзљЃеЈ¶иЊєзЪДдљНзљЃеЕ≥з≥ї
+			//
 			var lw = rightSlice.last().width(),
 				lh  =rightSlice.last().height(),
 				oloop = Math.floor(this.posterItems.size()/2);
@@ -263,7 +262,7 @@ function carousel(root) {
 			});
 		},
 	
-		//иЃЊзљЃеЮВзЫіжОТеИЧеѓєйљР
+		//
 		setVerticalAlign:function(height){
 			var verticalType  = this.setting.verticalAlign,
 				top = 0;
@@ -279,7 +278,7 @@ function carousel(root) {
 			return top;
 		},
 
-		//иЃЊзљЃйЕНзљЃеПВжХ∞еАЉеОїжОІеИґеЯЇжЬђзЪДеЃљеЇ¶йЂШеЇ¶гАВгАВгАВ
+		//
 		setSettingValue:function(){
 			this.poster.css({
 				width:this.setting.width,
@@ -335,9 +334,6 @@ function carousel(root) {
 })(jQuery);
 
 
-
-
-
 /*initial*/
 $(function(){
 	Carousel.init($(".pictureSlider"));
@@ -346,5 +342,7 @@ $(function(){
 
 
 // 2-й слайдер
+
+
 
 

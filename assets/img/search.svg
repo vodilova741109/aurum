@@ -3,7 +3,7 @@
 <g filter="url(#filter0_d_17_3)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 13.5C24.4809 13.5 27.5 16.5191 27.5 20.25C27.5 23.9809 24.4809 27 20.75 27C19.1715 27 17.7204 26.4596 16.5715 25.5535L13.625 28.5L12.5 27.375L15.4465 24.4285C14.5404 23.2796 14 21.8285 14 20.25C14 16.5191 17.0313 13.5 20.75 13.5ZM20.7499 15C23.6549 15 25.9999 17.345 25.9999 20.25C25.9999 23.155 23.6549 25.5 20.7499 25.5C17.8449 25.5 15.4999 23.155 15.4999 20.25C15.4999 17.345 17.8565 15 20.7499 15Z" fill="white"/>
 </g>
-<rect x="0.5" y="0.5" width="41" height="41" rx="20.5" stroke="#845C28"/>
+<rect x="0.5" y="0.5" width="40" height="40" rx="20.5" stroke="#845C28"/>
 <defs>
 <filter id="filter0_d_17_3" x="12.5" y="13.5" width="15" height="16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

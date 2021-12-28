@@ -208,6 +208,30 @@
       line-height: 9px;
       color: #000000;
     }
+
+  .poster{
+      position:relative;
+      margin:100px auto;
+      background:#ff6600;
+      height:200px;
+      width:150px;
+  }
+  .descr{
+      display:none;
+      margin-left:100%;
+      padding:10px;
+      margin-top: 0px;
+      background:fff;
+      height:200px;
+     
+  }
+  .poster:hover .descr{
+      display:block;
+      position:absolute;
+      top:0px;
+      z-index:9999;
+      width:400px;
+  }
   </style>
 </head>
 
@@ -267,7 +291,13 @@
   </div>
 
 
-
+  <div class="poster">
+    <div class="descr">
+    Какой-то текст который должен быть в блоке<br>
+    <a href="#">Интересная ссылка</a>
+    </div>
+    </div>  
+  
   
 
 
