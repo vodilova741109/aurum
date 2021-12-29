@@ -8,6 +8,12 @@ $(document).ready(function(){
 		autoplaySpeed:800,
 		responsive:[
 			{
+				breakpoint: 1500,
+				settings: {					
+					slidesToShow:3
+				}
+			},
+			{
 				breakpoint: 811,
 				settings: {					
 					slidesToShow:2
@@ -31,6 +37,15 @@ $(document).ready(function(){
 		speed:1000,
 		autoplaySpeed:800,
 		responsive: [
+			{
+				breakpoint: 1500,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  centerPadding: '60px',
+				  slidesToShow: 3
+				}
+			  },
 		  {
 			breakpoint: 811,
 			settings: {
